@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>費用</title>
+  <title>procedure</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -44,29 +44,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              HOME
-            <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="service.html"> サービス内容 </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="procedure.html"> 退職までのステップ </a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              運営事務所
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="about.html">弁護士について</a>
-              <a class="dropdown-item" href="map.html">地　図</a>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"> 弁護士について </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="fee.html"> 料　金 </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"> お問い合わせ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html"> 地　図 </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">お問い合わせ</a>
+              <a class="dropdown-item" href="#">退職までのステップ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
         </ul>
     </div>
@@ -74,60 +81,77 @@
 </div>
 <!--  END Navbar  -->
 <!--  Content  -->
-<div class="container-fluid bg-green">
-  <h1 class="text-center text-white p-5 mb-5">費　用</h1>
+<div class="container-fluid">
+  <h1 class="text-center text-white bg-teal p-5 border-bottom mb-5">退職までのステップ</h1>
+
 </div>
 
-<div class="container-fluid bg-gainsboro">
-<div class="container">
-  <div class="d-flex justify-content-center">
-    <div class="d-flex flex-column bd-highlight mb-3 fee-box">
-      <div class="p-2 text-center bd-highlight bg-primary text-white">
-        <h2 class="p-2 m-2">基本プラン</h2>
-      </div>
-      <div class="p-2 text-center bd-highlight bg-danger text-white">60,000円（税別）</div>
-      <div class="p-2 bd-highlight bg-secondary text-white">
-        <h3 class="h5 p-3">弁護士が下記の交渉を行います。</h3>
-        <ul>
-          <li>退職手続きの交渉</li>
-          <li>有給の消化についての交渉</li>
-          <li>離職票の発行等の退職に伴う法的手続きの一切の交渉</li>
-        </ul>
-      </div>
-    </div>
+<!--  Flexbox  -->
+<div class="d-flex flex-row bd-highlight justify-content-center">
+  <div class="p-2 bg-teal text-white">
+    <p class="h1 p-3 text-white">1</p>
+  </div>
+  <div class="w-50 p-2 procedure-box bg-teal">
+    <p class="h4 p-3 bg-yellow text-teal"><strong>相　談</strong></p>
+    <p class="p-3 bg-info text-white">メール・チャット・お電話でご相談ください。手続きの詳細についてもご説明いたします。</p>
+
   </div>
 </div>
 
-<div class="container">
-  <div class="d-flex justify-content-center">
-    <div class="d-flex flex-column bd-highlight mb-3 fee-box">
-      <div class="p-2 text-center bd-highlight bg-primary text-white">
-        <h2 class="p-2 m-2">基本プラン</h2>
-      </div>
-      <div class="p-2 text-center bd-highlight bg-danger text-white">60,000円（税別）</div>
-      <div class="p-2 bd-highlight bg-secondary text-white">
-        <h3 class="h5 p-3">弁護士が下記の交渉を行います。</h3>
-        <ul>
-          <li>退職手続きの交渉</li>
-          <li>有給の消化についての交渉</li>
-          <li>離職票の発行等の退職に伴う法的手続きの一切の交渉</li>
-        </ul>
-      </div>
-    </div>
+<!--  Just Line  -->
+<div class="d-flex">
+  <div class="w-50 justline">Width 50%</div>
+</div>
+<!--  End Just Line  -->
+<!--  Flexbox  -->
+<div class="d-flex flex-row bd-highlight justify-content-center">
+  <div class="p-2 bg-teal text-white">
+    <p class="h1 p-3 text-white">2</p>
+  </div>
+  <div class="w-50 p-2 procedure-box bg-teal">
+    <p class="h4 p-3 bg-yellow text-teal"><strong>契　約</strong></p>
+    <p class="p-3 bg-info text-white">ご本人確認のため、免許証等身分証明書の写真を送信してください。契約は、郵送の他、スマホでもできます（クラウドサイン）。</p>
+
   </div>
 </div>
 
-
+<!--  Just Line  -->
+<div class="d-flex">
+  <div class="w-50 justline">Width 50%</div>
 </div>
+<!--  End Just Line  -->
+<!--  Flexbox  -->
+<div class="d-flex flex-row bd-highlight justify-content-center">
+  <div class="p-2 bg-teal text-white">
+    <p class="h1 p-3">3</p>
+  </div>
+  <div class="w-50 p-2 text-white procedure-box bg-teal">
+    <p class="h4 p-3 bg-yellow text-teal"><strong>お支払い</strong></p>
+    <p class="p-3 bg-info text-white">銀行振込・Paypal・クレジットカードでのお支払いができます。</p>
+  </div>
+</div>
+<!--  Just Line  -->
+<div class="d-flex">
+  <div class="w-50 justline">Width 50%</div>
+</div>
+<!--  End Just Line  -->
+<!--  Flexbox  -->
+<div class="d-flex flex-row bd-highlight justify-content-center">
+  <div class="p-2 bg-teal text-white">
+    <p class="h1 p-3 text-white">4</p>
+  </div>
+  <div class="w-50 p-2 procedure-box bg-teal">
+    <p class="h4 p-3 bg-yellow text-teal"><strong>退職代行</strong></p>
+    <p class="p-3 bg-info text-white">弁護士が会社と交渉し、退職の手続きを進めます。あなたが会社とやりとりする必要はありません。</p>
 
-
-
+  </div>
+</div>
 
 
 
 
 <!--  Footer  -->
-<div class="container-fluid mt-4">
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm text-center bg-green text-white">
         <span style="font-size: 2em; color: #FF7F00;">

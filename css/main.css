@@ -345,3 +345,28 @@ body{
 .text-red{
   color: orangered;
 }
+
+.text-tomato{
+  color: tomato;
+}
+
+.bg-teal{
+  background-color: teal;
+}
+
+.bg-yellow{
+  background-color: #ffc107;
+}
+
+.gb-gainsboro{
+  background-color: gainsboro;
+}
+
+.text-teal{
+  color: teal;
+}
+
+.fee-box{
+  max-width: 800px;
+  min-width: 300px;
+}
