@@ -292,6 +292,21 @@ body{
   padding-top: 72px;
 }
 
+.btn-primary{
+  background-color: steelblue;
+  border-color: steelblue;
+}
+
+a{
+  color: steelblue;
+}
+.a-white a{
+  color: white;
+}
+
+.jumbotron{
+  border-radius:0;
+}
 .jumbotron-bgc-green{
   background: linear-gradient(olive,darkolivegreen);
 }
@@ -308,9 +323,6 @@ body{
   background-color: teal;
 }
 
-.btn-primary{
-  background-color: steelblue;
-}
 
 .text-green{
   color: olive;
@@ -378,4 +390,16 @@ body{
 .fee-box{
   max-width: 700px;
   min-width: 300px;
+}
+.fee-box-title{
+  border: solid;
+  border-width: 0.5rem;
+  border-color: #bd2130;
+  color: #bd2130;
+}
+
+.fee-sm-box{
+  border: solid;
+  border-width: 0.5rem;
+  border-color: teal;
 }

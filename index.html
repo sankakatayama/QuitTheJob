@@ -35,7 +35,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
     <img src="img/icon_katayama2.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    <strong><span class="text-green"><span class="text-red">弁護士の</span>退職代行</span></strong>
+    <strong><span class="text-green"><span class="text-red">退職代行</span>by弁護士</span></strong>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -48,11 +48,15 @@
               HOME
             <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.html"> サービス内容 </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="procedure.html"> 退職までのステップ </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="procedure.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 退職までのステップ </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="procedure.html">全体のながれ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="consultation.html">相　談</a>
+              <a class="dropdown-item" href="agreement.html">契　約</a>
+              <a class="dropdown-item" href="payment.html">お支払い</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,12 +65,23 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="about.html">弁護士について</a>
               <a class="dropdown-item" href="map.html">地　図</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="fee.html"> 料　金 </a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              料　金
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="fee.html">料　金</a>
+              <a class="dropdown-item" href="payment.html">お支払い方法</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> お問い合わせ </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">弁護士について</a>
+              <a class="dropdown-item" href="map.html">地　図</a>
+            </div>
           </li>
         </ul>
     </div>
@@ -92,8 +107,8 @@
   <p class="h5 text-center">登録番号：４０４５９</p>
 </div>
 <div class="container-fluid bg-darkolivegreen">
-  <div class="container bg-green">
-  <h1 class="text-white p-2">退職代行を弁護士に依頼するメリット</h1>
+  <div class="container">
+  <h1 class="text-white p-3">退職代行を弁護士に依頼するメリット</h1>
   </div>
 </div>
   <div class="row">
@@ -102,9 +117,6 @@
         <h4 class="card-header">会社との交渉ができる</h4>
         <div class="card-body">
           <p class="card-text">弁護士ではない業者は、あなたに変わって会社と交渉することができません。できるのは、ただ書類を提出したり、伝言を伝えたりするだけです。業者があなたの代わりに交渉することは弁護士法違反に当たるからです。</p>
-          <p class="text-center">
-          <a href="#" class="btn btn-primary"> 詳しくはこちら </a>
-          </p>
         </div>
       </div>
     </div>
@@ -113,9 +125,7 @@
         <h4 class="card-header">未払い賃金の請求もできる</h4>
         <div class="card-body">
           <p class="card-text">働いた分の賃金を払わないのは、当然違法です。未払い賃金は、弁護士から会社に交渉して請求することができます。弁護士でない業者はあなたに変わって未払い賃金を請求することはできません。</p>
-          <p class="text-center">
-            <a href="#" class="btn btn-primary"> 詳しくはこちら </a>
-          </p>
+
         </div>
       </div>
     </div>
@@ -124,9 +134,7 @@
         <h4 class="card-header">損害賠償の交渉もできる</h4>
         <div class="card-body">
           <p class="card-text">退職したいと会社に伝えると、今までのミスを補填しろと、損害賠償請求をされる場合があります。この場合も、弁護士は会社と交渉に当たることができますが、弁護士でない業者は交渉することはできません。</p>
-          <p class="text-center">
-          <a href="#" class="btn btn-primary"> 詳しくはこちら </a>
-          </p>
+
         </div>
       </div>
     </div>
@@ -135,29 +143,46 @@
 
 
 
-<!--  Footer  -->
-<div class="container-fluid">
-  <div class="row mt-3">
-    <div class="col-sm text-center bg-green text-white pt-2">
-        <span style="font-size: 2em; color: #FF7F00;">
-          <i class="fas fa-comments"></i>
-        </span>
-        <p class="text-center">チャットで相談</p>
-    </div>
-    <div class="col-sm text-center bg-secondary text-white pt-2">
-      <span style="font-size: 2em; color: #FF7F00;">
-        <i class="fas fa-envelope"></i>
-      </span>
-      <p class="text-center">メールで相談</p>
-    </div>
-    <div class="col-sm text-center bg-blue text-white pt-2">
-      <span style="font-size: 2em; color: Tomato;">
-        <i class="fas fa-phone"></i>
-      </span>
-      <p class="text-center">電話で相談</p>
+  <!--  Footer  -->
+  <div class="container-fluid mt-4">
+    <div class="row mt-3">
+      <div class="col-sm text-center bg-green text-white a-white">
+          <span style="font-size: 2em; color: #FF7F00;">
+            <i class="fas fa-comments"></i>
+          </span>
+          <p class="text-center">チャットで相談</p>
+      </div>
+      <div class="col-sm text-center bg-secondary text-white a-white">
+        <a href="mailto:info@katayama-law.jp">
+          <span style="font-size: 2em; color: #FF7F00;">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <p class="text-center">メールで相談</p>
+        </a>
+      </div>
+      <div class="col-sm text-center bg-blue text-white a-white">
+        <a href="tel:05031880970">
+          <span style="font-size: 2em; color: Tomato;">
+            <i class="fas fa-phone"></i>
+          </span>
+          <p class="text-center">電話で相談</a></p>
+        </a>
+      </div>
     </div>
   </div>
-</div>
+<!--  事務所情報  -->
+<footer class="footer">
+  <div class="container">
+    <address class="text-center m-4">
+      <strong>片山ひでのり法律事務所</strong><br>
+      <strong>弁護士　片山栄範</strong><br>
+      静岡県弁護士会所属　登録番号４０４５９<br>
+      〒422-8067　静岡市駿河区南町１３−３ ＴＫビル４階<br>
+      <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:05031880970');" href="tel:05031880970"> 050-3188-0970 </a><br>
+      </span><a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
+    </address>
+  </div>
+</footer>
 
 
 

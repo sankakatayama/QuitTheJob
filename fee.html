@@ -49,9 +49,6 @@
             <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.html"> サービス内容 </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="procedure.html"> 退職までのステップ </a>
           </li>
           <li class="nav-item dropdown">
@@ -66,27 +63,45 @@
             <a class="nav-link" href="fee.html"> 料　金 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> お問い合わせ </a>
+            <a class="nav-link" href="payment.html"> お支払い方法 </a>
           </li>
         </ul>
     </div>
   </nav>
 </div>
 <!--  END Navbar  -->
-<!--  Content  -->
-<div class="container-fluid bg-teal">
-  <h1 class="text-center text-white p-5 mb-5">費　用</h1>
+
+<div class="container">
+<!--  Test PayPal  -->
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="P84NCNWJ8GEGG">
+<input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
+<img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
+</form>
+<!--  End Test PayPal  -->
 </div>
 
-<div class="container-fluid bg-gainsboro">
+
+
+
+
+<!--  Content  -->
+<div class="container-fluid bg-teal">
+  <h1 class="text-center text-white p-5 mb-5">料　金</h1>
+</div>
+
 <div class="container">
   <div class="d-flex justify-content-center">
     <div class="w-75 d-flex flex-column bd-highlight mb-3 fee-box">
-      <div class="p-2 text-center bg-teal text-white">
-        <h2 class="p-2 m-2">退職代行</h2>
+      <div class="p-2 text-center fee-sm-box">
+        <h2 class="p-2 m-2 text-teal"><strong>基本プラン</strong></h2>
       </div>
-      <div class="p-2 text-center bd-highlight bg-yellow text-teal"><p class="m-auto h5"><strong>６万円（税別）</strong></p></div>
-      <div class="p-2 bd-highlight bg-info text-white">
+      <div class="p-2 text-center bg-teal text-white">
+        <h3 class="p-2 m-2">退職代行</h3>
+      </div>
+      <div class="p-2 text-center text-teal bg-yellow fee-sm-box"><p class="m-auto h5"><strong>６万円（税別）</strong></p></div>
+      <div class="p-2 bg-teal text-white fee-sm-box">
         <h3 class="h5 p-3">弁護士が下記の交渉を行います。</h3>
         <ul>
           <li>退職手続きの交渉</li>
@@ -98,57 +113,72 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container pt-5">
   <div class="d-flex justify-content-center">
     <div class="w-75 d-flex flex-column bd-highlight mb-3 fee-box">
-      <div class="p-2 text-center  bg-teal text-white">
-        <h2 class="h4 p-2 mt-2 ">未払賃金請求</h2>
-        <h2 class="h4">残業代請求</h2>
-        <h2 class="h4">退職金請求</h2>
-        <h2 class="h4">パワハラ慰謝料請求</h2>
+      <div class="p-2 text-center fee-sm-box">
+        <h2 class="p-2 m-2 text-teal"><strong>オプション</strong></h2>
       </div>
-      <div class="p-2 text-center bd-highlight bg-yellow text-teal border-bottom border-info"><p class="m-auto h5"><strong>着手金　０円</strong></p></div>
-      <div class="p-2 text-center bd-highlight bg-yellow text-teal"><p class="m-auto h5"><strong>成功報酬　２０%（税別）</strong></p></div>
-      <div class="p-2 text-center bd-highlight bg-yellow text-teal"><p class="m-auto"><strong>但し、最低金額 ２５万円（税別）</strong></p></div>
-      <div class="p-2 bd-highlight bg-info text-white">
-        <p class="pt-2 ml-2 mr-2">弁護士が会社と交渉の上、請求します。訴訟に移行する場合は、ふんたらかんたらふんたらかんたら</p>
+      <div class="p-2 text-center bg-teal text-white">
+        <h2 class="h5 mt-2 ">未払賃金請求</h2>
+        <h2 class="h5">残業代請求</h2>
+        <h2 class="h5">退職金請求</h2>
+        <h2 class="h5">パワハラ慰謝料請求</h2>
+      </div>
+      <div class="p-2 text-center bg-yellow text-teal fee-sm-box">
+        <p class="h5 text-center border-bottom border-info pb-2"><strong>着手金０円</strong></p>
+        <p class="h5 text-center pt-2"><strong>成功報酬２０%（税別）</strong></p>
+        <p class="h5 text-center"><strong>但し、最低金額２５万円（税別）</strong></p>
+      </div>
+      <div class="p-2 bg-teal text-white fee-sm-box">
+        <p class="pt-2 ml-2 mr-2">退職代行サービスをご依頼いただいた方は、上記の特別料金で、弁護士が会社と交渉いたします。なお、訴訟に移行する場合は、ふんたらかんたらふんたらかんたら</p>
       </div>
     </div>
   </div>
 </div>
-
-
-</div>
-
-
-
-
-
 
 
 <!--  Footer  -->
 <div class="container-fluid mt-4">
   <div class="row mt-3">
-    <div class="col-sm text-center bg-green text-white">
+    <div class="col-sm text-center bg-green text-white a-white">
         <span style="font-size: 2em; color: #FF7F00;">
           <i class="fas fa-comments"></i>
         </span>
         <p class="text-center">チャットで相談</p>
     </div>
-    <div class="col-sm text-center bg-secondary text-white">
-      <span style="font-size: 2em; color: #FF7F00;">
-        <i class="fas fa-envelope"></i>
-      </span>
-      <p class="text-center">メールで相談</p>
+    <div class="col-sm text-center bg-secondary text-white a-white">
+      <a href="mailto:info@katayama-law.jp">
+        <span style="font-size: 2em; color: #FF7F00;">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <p class="text-center">メールで相談</p>
+      </a>
     </div>
-    <div class="col-sm text-center bg-blue text-white">
-      <span style="font-size: 2em; color: Tomato;">
-        <i class="fas fa-phone"></i>
-      </span>
-      <p class="text-center">電話で相談</p>
+    <div class="col-sm text-center bg-blue text-white a-white">
+      <a href="tel:05031880970">
+        <span style="font-size: 2em; color: Tomato;">
+          <i class="fas fa-phone"></i>
+        </span>
+        <p class="text-center">電話で相談</a></p>
+      </a>
     </div>
   </div>
 </div>
+<!--  事務所情報  -->
+<footer class="footer">
+  <div class="container">
+    <address class="text-center m-4">
+      <strong>片山ひでのり法律事務所</strong><br>
+      <strong>弁護士　片山栄範</strong><br>
+      静岡県弁護士会所属　登録番号４０４５９<br>
+      〒422-8067　静岡市駿河区南町１３−３ ＴＫビル４階<br>
+      <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:05031880970');" href="tel:05031880970"> 050-3188-0970 </a><br>
+      </span><a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
+    </address>
+  </div>
+</footer>
+
 
 
 
