@@ -18,7 +18,7 @@
 
   <!--  Fontawesome  -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!--  End Fontawesome  -->
+ <!--  End Fontawesome  -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -29,12 +29,13 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
+
   <!--  Navbar  -->
 <div class="container-fluid">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
     <img src="img/icon_katayama2.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    <strong><span class="text-green"><span class="text-red">弁護士の</span>退職代行</span></strong>
+    <strong><span class="text-green"><span class="text-red">退職代行</span>by弁護士</span></strong>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,8 +48,15 @@
               HOME
             <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="procedure.html"> 退職までのステップ </a>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="procedure.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 退職までのステップ </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="procedure.html">全体のながれ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="consultation.html">相　談</a>
+              <a class="dropdown-item" href="agreement.html">契　約</a>
+              <a class="dropdown-item" href="payment.html">お支払い</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,20 +65,32 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="about.html">弁護士について</a>
               <a class="dropdown-item" href="map.html">地　図</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="fee.html"> 料　金 </a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              料　金
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="fee.html">料　金</a>
+              <a class="dropdown-item" href="payment.html">お支払い方法</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="payment.html"> お支払い方法 </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">弁護士について</a>
+              <a class="dropdown-item" href="map.html">地　図</a>
+            </div>
           </li>
         </ul>
     </div>
   </nav>
 </div>
 <!--  END Navbar  -->
+
 <!--  Content  -->
-<div class="container-fluid">
+<div class="container-fluid p-0">
   <h1 class="text-center text-white bg-teal p-5 border-bottom mb-5">退職までのステップ</h1>
 
 </div>
@@ -82,7 +102,7 @@
   </div>
   <div class="w-75 p-2 procedure-box bg-teal">
     <p class="h4 p-3 bg-yellow text-teal"><strong>相　談</strong></p>
-    <p class="p-3 bg-info text-white">メール・チャット・お電話でご相談ください。手続きの詳細についてもご説明いたします。</p>
+    <p class="p-3 bg-info text-white">メール・チャット・お電話でご相談ください。手続きの詳細についてもご説明いたします。　<a href="consultation.html">詳しくはこちら　＞</a></p>
 
   </div>
 </div>
@@ -100,9 +120,29 @@
     <p class="h1 p-3 text-white">2</p>
   </div>
   <div class="w-75 p-2 procedure-box bg-teal">
+    <p class="h4 p-3 bg-yellow text-teal"><strong>本人確認</strong></p>
+    <p class="p-3 bg-info text-white">免許証等の身分証明書の写真をメール（または郵送）で送信してください。<a href="consultation.html">詳しくはこちら　＞</a></p>
+
+  </div>
+</div>
+
+<!--  Just Line  -->
+<div class="d-flex">
+  <div class="w-50 justline">
+    <h1></h1>
+  </div>
+</div>
+<!--  End Just Line  -->
+
+<!--  Flexbox  -->
+<div class="d-flex flex-row bd-highlight justify-content-center">
+  <div class="p-2 bg-teal text-white">
+    <p class="h1 p-3 text-white">3</p>
+  </div>
+  <div class="w-75 p-2 procedure-box bg-teal">
     <p class="h4 p-3 bg-yellow text-teal"><strong>契　約</strong></p>
     <div class="p-3 bg-info text-white">
-    <p class="">面談の必要はありません。ご本人確認のため、免許証等身分証明書の写真を送信してください。契約は、郵送の他、スマホでもできます。　詳しくはこちら　＞</p>
+    <p class="">面談の必要はありません。契約書の捺印は、郵送でやりとりします。　<a href="agreement.html">詳しくはこちら　＞</a></p>
   </div>
 
   </div>
@@ -118,11 +158,11 @@
 <!--  Flexbox  -->
 <div class="d-flex flex-row bd-highlight justify-content-center">
   <div class="p-2 bg-teal text-white">
-    <p class="h1 p-3">3</p>
+    <p class="h1 p-3">4</p>
   </div>
   <div class="w-75 p-2 text-white procedure-box bg-teal">
     <p class="h4 p-3 bg-yellow text-teal"><strong>お支払い</strong></p>
-    <p class="p-3 bg-info text-white">銀行振込・Paypal・クレジットカードでのお支払いができます。</p>
+    <p class="p-3 bg-info text-white">銀行振込・Paypal・クレジットカードでのお支払いができます。　<a href="payment.html">詳しくはこちら＞</a></p>
   </div>
 </div>
 <!--  Just Line  -->
@@ -135,7 +175,7 @@
 <!--  Flexbox  -->
 <div class="d-flex flex-row justify-content-center">
   <div class="p-2 bg-teal text-white">
-    <p class="h1 p-3 text-white">4</p>
+    <p class="h1 p-3 text-white">5</p>
   </div>
   <div class="w-75 p-2 procedure-box bg-teal">
     <p class="h4 p-3 bg-yellow text-teal"><strong>退職代行</strong></p>
@@ -164,7 +204,7 @@
         <p class="text-center">メールで相談</p>
       </a>
     </div>
-    <div class="col-sm text-center bg-blue text-white a-white">
+    <div class="col-sm text-center bg-teal text-white a-white">
       <a href="tel:05031880970">
         <span style="font-size: 2em; color: Tomato;">
           <i class="fas fa-phone"></i>

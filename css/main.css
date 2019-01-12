@@ -289,7 +289,7 @@ textarea {
 /*  ここから賛歌がいれたstyle  */
 
 body{
-  padding-top: 72px;
+  padding-top: 56px;
 }
 
 .btn-primary{
@@ -319,10 +319,9 @@ a{
   background-color: darkolivegreen;
 }
 
-.bg-blue{
-  background-color: teal;
+.bg-darkteal{
+  background-color: #003232;
 }
-
 
 .text-green{
   color: olive;
@@ -363,6 +362,10 @@ a{
   color: tomato;
 }
 
+.text-goldenrod{
+  color: goldenrod;
+}
+
 .bg-teal{
   background-color: teal;
 }
@@ -371,8 +374,8 @@ a{
   background-color: #ffc107;
 }
 
-.gb-gainsboro{
-  background-color: gainsboro;
+.bg-whitesmoke{
+  background-color: whitesmoke;
 }
 
 .bg-red{
@@ -385,6 +388,10 @@ a{
 
 .text-teal{
   color: teal;
+}
+
+.text-darkslategray{
+  color: darkslategray;
 }
 
 .fee-box{
@@ -402,4 +409,9 @@ a{
   border: solid;
   border-width: 0.5rem;
   border-color: teal;
+}
+
+
+.procedure-box a{
+  color: white;
 }
