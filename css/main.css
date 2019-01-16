@@ -289,7 +289,7 @@ textarea {
 /*  ここから賛歌がいれたstyle  */
 
 body{
-  padding-top: 56px;
+  padding-top: 89px;
 }
 
 .btn-primary{
@@ -321,6 +321,10 @@ a{
 
 .bg-darkteal{
   background-color: #003232;
+}
+
+.bg-gainsboro{
+  background-color: gainsboro;
 }
 
 .text-green{
