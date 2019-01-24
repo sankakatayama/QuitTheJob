@@ -97,6 +97,43 @@
 <div class="container-fluid p-0">
   <h1 class="text-center text-white bg-teal p-5 mb-0  border-bottom">ご　相　談</h1>
 </div>
+
+<div class="container-fluid p-4 bg-whitesmoke text-center ">
+<strong>
+  <span style="font-size: 2em; color: tomato;" class="pt-2">
+  <i class="fab fa-wpforms"></i>
+  </span>
+  </strong>
+  <span class="h3 p-2 text-darkslategray"><strong>フォームでご相談</strong>
+  </span>
+
+</div>
+
+<!--  Form  -->
+<div class="container p-3 bg-green text-white">
+<form method="post" action="mail.php">
+  <div class="form-group">
+    <label for="name">お名前（フルネーム）</label>
+    <input name="お名前" type="text" class="form-control" id="name" placeholder="お名前（フルネーム）" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">メールアドレス</label>
+    <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス" required>
+  </div>
+  <div class="form-group">
+  <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+  <textarea name="お問い合わせ内容" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="お問い合わせ内容" required></textarea>
+</div>
+<div class="d-flex justify-content-center">
+  <button type="submit" class="btn btn-primary">送信する</button>
+</div>
+</form>
+</div>
+<!-- End Form  -->
+
+
+
+
 <div class="container-fluid p-4 bg-whitesmoke text-center ">
   <h2 class="h3 p-2 text-darkslategray"><strong>電話でご相談</strong></h2>
   <span style="font-size: 2em; color: tomato;" class="pt-2">
@@ -113,7 +150,7 @@
 
 
 <div class="container-fluid p-4 text-center ">
-  <h2 class="h3 p-2 text-darkslategray"><strong>メールでご相談</h2>
+  <h2 class="h3 p-2 text-darkslategray"><strong>メールでご相談</h2></strong>
     <span style="font-size: 2em; color: tomato;" class="pt-2">
     <i class="fas fa-envelope"></i>
     </span>
@@ -126,6 +163,7 @@
 
 
 <!--  Footer  -->
+<strong>
 <div class="container-fluid mt-4">
   <div class="row mt-3">
     <div class="col-sm text-center bg-green text-white a-white">
@@ -154,6 +192,7 @@
     </div>
   </div>
 </div>
+</strong>
 <!--  事務所情報  -->
 <footer class="footer">
   <div class="container">
