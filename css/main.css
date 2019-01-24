@@ -327,8 +327,20 @@ a{
   background-color: gainsboro;
 }
 
+.bg-beige{
+  background-color: beige;
+}
+
 .text-green{
   color: olive;
+}
+
+.text-darkblue{
+  color: darkblue;
+}
+
+.bb-darkblue{
+  border-bottom: 1px solid darkblue;
 }
 
 .google-map{

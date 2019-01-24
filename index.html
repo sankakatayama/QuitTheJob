@@ -111,7 +111,7 @@
   <p class="text-center h4">全て弁護士が引き受けます。</p>
 </div>
 
-<div class="container-floud bg-darkolivegreen text-white pt-3 pb-3 mb-4">
+<div class="container-floud bg-darkolivegreen text-white pt-3 pb-3">
 <div class="container">
   <!-- Stack the columns on mobile by making one full-width and the other half-width -->
   <div class="row">
@@ -121,7 +121,7 @@
       </div>
     </div>
     <div class="col-12 col-sm-10">
-      <p class="h4 p-3 border-bottom">弁護士ではない業者は、あなたの代わりに会社と交渉することができません。</p>
+      <p class="h4 pt-3 pb-3 border-bottom">弁護士ではない業者は、あなたの代わりに会社と交渉することができません。</p>
       <p class="pt-3 h5">できるのは、会社に書類を送ったり、あなたからの伝言を伝えるだけです。</p>
       <p class="pt-2 h5">弁護士なら、直接会社とやりとりし、会社と交渉をした上で、退職手続きを進めることができます。</p>
     </div>
@@ -129,29 +129,47 @@
 </div>
 </div>
 
-
-<!--  Form  -->
-<div class="container p-3 bg-green text-white" id="form01">
-  <h1>お問い合わせフォーム</h1>
-  <form method="post" action="mail.php">
-    <div class="form-group">
-      <label for="name">お名前（フルネーム）</label>
-      <input name="お名前" type="text" class="form-control" id="name" placeholder="お名前（フルネーム）" required>
+<div class="container-fluid bg-beige text-darkblue pt-3 pb-3 mt-0">
+  <div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-6 col-sm-2 m-auto">
+        <div class="d-flex justify-content-center">
+          <img src="img/arm-icon.png" alt="安心アイコン">
+        </div>
+      </div>
+      <div class="col-12 col-sm-10">
+        <p class="h4 pt-3 pb-3 bb-darkblue">労働問題に強い弁護士なら、まさかの時も安心です。</p>
+        <p class="pt-3 h5">残業代請求・不当解雇・あっせん等の労働問題の実績のある弁護士なら、会社との交渉も安心して任せられます。</p>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">メールアドレス</label>
-      <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス" required>
-    </div>
-    <div class="form-group">
-    <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
-    <textarea name="お問い合わせ内容" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="お問い合わせ内容" required></textarea>
   </div>
-  <div class="d-flex justify-content-center">
-    <button type="submit" class="btn btn-primary">送信する</button>
-  </div>
-  </form>
 </div>
+
+<div class="container-fluid bg-green">
+<!--  Form  -->
+  <div class="container p-3 bg-green text-white" id="form01">
+    <h1>お問い合わせフォーム</h1>
+    <form method="post" action="mail.php">
+      <div class="form-group">
+        <label for="name">お名前（フルネーム）</label>
+        <input name="お名前" type="text" class="form-control" id="name" placeholder="お名前（フルネーム）" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">メールアドレス</label>
+        <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス" required>
+      </div>
+      <div class="form-group">
+      <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+      <textarea name="お問い合わせ内容" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="お問い合わせ内容" required></textarea>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary">送信する</button>
+    </div>
+    </form>
+  </div>
   <!-- End Form  -->
+</div>
 
 
 <!--  Footer  -->
