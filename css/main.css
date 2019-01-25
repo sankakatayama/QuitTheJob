@@ -301,6 +301,12 @@ body{
 a{
   color: steelblue;
 }
+
+a.a-text-lightskyblue{
+  color: lightskyblue;
+}
+
+
 .a-white a{
   color: white;
 }
