@@ -297,12 +297,19 @@ body{
   border-color: steelblue;
 }
 
+
 a{
   color: steelblue;
 }
 .a-white a{
   color: white;
 }
+.dropdown-item.active{
+  background-color: steelblue;
+}
+
+
+
 
 .jumbotron{
   border-radius:0;
